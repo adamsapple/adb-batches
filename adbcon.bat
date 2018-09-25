@@ -1,7 +1,6 @@
 @echo off
 set devid=%1
 set port=%2
-REM adb shell "ip addr show wlan0 | grep 192.168 | sed -e 's/^.*inet[^6][^0-9]*\([0-9.]*\)[^0-9]*.*$/\1/'"
 
 @echo on
 adb -s %devid% tcpip %port%
