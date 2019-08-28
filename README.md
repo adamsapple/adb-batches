@@ -1,5 +1,5 @@
 # adb-batches
-以下の提携作業をバッチ化
+以下の定型作業をバッチ化
 
 ```
 adb cevices
